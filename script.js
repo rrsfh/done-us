@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const FINISHED_DELAY_MS = 0; // the code only appears once the server has saved it, so no wait is needed
  
     const REQUIRED_PARAMS = ['bpid', 'bnum'];
-    const OPTIONAL_PARAMS = ['battempt', 'bkey', 'tc', 'tg'];
+    const OPTIONAL_PARAMS = ['battempt', 'bkey', 'tc', 'tg', 'ta'];
  
     // ---- DOM elements (looked up once) ----
     const codeEl = document.getElementById('completionCode');
